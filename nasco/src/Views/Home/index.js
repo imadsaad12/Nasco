@@ -28,7 +28,7 @@ const Index = () => {
   const [page, setPage] = useState(1);
   const [search, setsearch] = useState("");
 
-  //fetching 5 employees per page
+  //fetching 4 employees per page
   useEffect(() => {
     setloading(true);
     axios
